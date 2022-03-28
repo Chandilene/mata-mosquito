@@ -2,13 +2,16 @@ html{
     cursor: url(img/mata_mosca.png) 30 30, auto;
 }
 
-
 body{
     background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-
+body.pag-inicial{
+    height: 100vh;
+    position: relative;
+}
 
 .mosquito1{
     width: 50px;
@@ -50,4 +53,10 @@ body{
     float: left;
     font-size: 20px;
     font-weight: bold;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    right:10px;
 }
